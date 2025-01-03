@@ -2,5 +2,5 @@
 import OpenAI from 'openai'
 
 export const openai = new OpenAI({
-  apiKey: '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'
+  
 })
