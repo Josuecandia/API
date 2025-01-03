@@ -51,7 +51,7 @@ Esta es una API creada durante un hackatón para un asistente virtual diseñado 
 
 ## Endpoints Disponibles
 
-### `GET /api/referencia`
+### `GET /api/agua`
 Genera una referencia bancaria para pagos gubernamentales.
 
 - **Parámetros**: `curp`, `nombre`, `monto`
@@ -63,7 +63,7 @@ Consulta y verifica la CURP de un usuario.
 - **Parámetros**: `curp` (CURP del usuario).
 - **Respuesta**: Información asociada a la CURP.
 
-### `POST /api/asistente`
+### `POST /api/chat`
 Realiza preguntas al asistente virtual.
 
 - **Parámetros**: `pregunta` (Texto que se le pregunta al asistente).
